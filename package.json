@@ -1,0 +1,38 @@
+{
+  "name": "yaggjs.github.io",
+  "version": "0.0.0",
+  "description": "✨🚀Simple and fast generator, create your own template in seconds",
+  "main": "index.js",
+  "scripts": {
+    "start": "hexo server",
+    "deploy": "hexo deploy -g"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaggjs/yaggjs.github.io.git"
+  },
+  "keywords": [],
+  "author": "Jose Albizures",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaggjs/yaggjs.github.io/issues"
+  },
+  "homepage": "https://github.com/yaggjs/yaggjs.github.io#readme",
+  "hexo": {
+    "version": "3.4.2"
+  },
+  "dependencies": {
+    "hexo": "^3.4.2",
+    "hexo-browsersync": "^0.2.0",
+    "hexo-deployer-git": "^0.3.1",
+    "hexo-generator-archive": "^0.1.5",
+    "hexo-generator-feed": "^1.2.2",
+    "hexo-generator-index": "^0.2.1",
+    "hexo-generator-sitemap": "^1.2.0",
+    "hexo-generator-tag": "^0.2.0",
+    "hexo-renderer-jade": "^0.4.1",
+    "hexo-renderer-marked": "^0.3.0",
+    "hexo-renderer-stylus": "^0.3.3",
+    "hexo-server": "^0.2.2"
+  }
+}
